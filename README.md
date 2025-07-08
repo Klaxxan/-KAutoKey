@@ -15,4 +15,6 @@ Version 1.2 Update
 
 I.. Cant believe it I forgot to put the most basic key in.. space how did I forget the spacebar.. Uh yeah update soon adding space to the list of keys you can auto press (I just forgot to list the key in the dropdown) :( 
 
+It's already done but its 10 AM and I havent slept till yesterday (working on a new project) and I couldn't be bother to make it an exe put it into an installer and then upload the update here rn so.. tomorrow update 
+
 © 2025 Klaxxan. All rights reserved.
