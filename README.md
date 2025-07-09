@@ -16,4 +16,6 @@ Version 1.2 Update
  Version 1.3 Update
 - Fixed 'space' not being in the dropdown list
 
+Is this opensource? Well no.. Why isnt it opensource well the code is very simple... It took me less then an hour or two so I dont see a need to post such simple code for open source my bigger projects (Upcoming) yes they will be open source. 
+
 © 2025 Klaxxan. All rights reserved.
