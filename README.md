@@ -13,8 +13,7 @@ Version 1.2 Update
 - Fixed not being able to change toggle keybind
 - Minor code improvements
 
-I.. Cant believe it I forgot to put the most basic key in.. space how did I forget the spacebar.. Uh yeah update soon adding space to the list of keys you can auto press (I just forgot to list the key in the dropdown) :( 
-
-It's already done but its 10 AM and I havent slept till yesterday (working on a new project) and I couldn't be bother to make it an exe put it into an installer and then upload the update here rn so.. tomorrow update 
+ Version 1.3 Update
+- Fixed 'space' not being in the dropdown list
 
 © 2025 Klaxxan. All rights reserved.
