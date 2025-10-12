@@ -32,3 +32,6 @@ Version 2.0 Update
 - settings.json is automatically created on first run
 
 © 2025 Klaxxan. All rights reserved.
+
+Need support? Join the discord!
+https://discord.gg/YgFdgeewBu
