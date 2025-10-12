@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>KAutoKey - Auto Key Presser Tool</title>
+  <title>KAutoKey - Auto Key & Mouse Tool</title>
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <style>
     body {
@@ -12,61 +12,83 @@
       margin: 0 auto;
       padding: 20px;
       background: #f4f6f8;
-      color: #333;
+      color: #2c2c2c;
+      line-height: 1.6;
     }
+
     header {
       text-align: center;
       margin-bottom: 40px;
     }
+
     h1 {
       font-size: 2.8rem;
-      margin-bottom: 0;
-      color: #2c3e50;
+      margin-bottom: 5px;
+      color: #2d2242;
+      letter-spacing: 0.5px;
     }
+
     h2 {
-      color: #34495e;
-      border-bottom: 2px solid #3498db;
+      color: #3a2b5c;
+      border-bottom: 2px solid #7d3cff;
       padding-bottom: 6px;
       margin-top: 40px;
     }
-    p {
-      line-height: 1.6;
+
+    p, li {
       font-size: 1.1rem;
     }
-    ul {
-      list-style-type: disc;
-      margin-left: 20px;
+
+    ul, ol {
+      margin-left: 25px;
       margin-bottom: 20px;
     }
+
     a {
-      color: #3498db;
+      color: #7d3cff;
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
     }
+
     .button {
       display: inline-block;
       margin-top: 15px;
+      margin-right: 8px;
       padding: 12px 25px;
-      background-color: #3498db;
+      background-color: #7d3cff;
       color: white;
-      font-weight: bold;
-      border-radius: 5px;
+      font-weight: 600;
+      border-radius: 6px;
       text-decoration: none;
-      transition: background-color 0.3s ease;
+      transition: all 0.3s ease;
+      box-shadow: 0 2px 6px rgba(125, 60, 255, 0.25);
     }
+
     .button:hover {
-      background-color: #2980b9;
+      background-color: #5a28cc;
+      box-shadow: 0 3px 8px rgba(90, 40, 204, 0.35);
+      transform: translateY(-1px);
     }
+
     footer {
       margin-top: 60px;
       font-size: 0.9rem;
       text-align: center;
       color: #777;
     }
+
     .download-section {
       margin-top: 20px;
+      text-align: center;
+    }
+
+    .note {
+      font-size: 0.9rem;
+      color: #666;
+      margin-top: 10px;
     }
   </style>
 </head>
@@ -74,55 +96,60 @@
 
 <header>
   <h1>KAutoKey</h1>
-  <p>Simple, reliable auto key presser tool for Windows</p>
+  <p>Lightweight keyboard & mouse automation tool for Windows</p>
   <a href="#download" class="button">Download Latest Version</a>
-  <a href="https://buymeacoffee.com/klaxxan" target="_blank" class="button">
-    ☕ Support Me
-  </a>
+  <a href="https://buymeacoffee.com/klaxxan" target="_blank" class="button">☕ Support Me</a>
 </header>
 
 <section id="about">
   <h2>About KAutoKey</h2>
   <p>
-    KAutoKey is a lightweight Windows application designed to automate key presses on your keyboard.
-    Perfect for gaming, testing, or repetitive tasks, it lets you configure custom key combinations
-    and intervals to boost productivity or gameplay efficiency.
+    KAutoKey is a simple, reliable automation utility for Windows that lets you
+    automatically press keyboard keys or perform mouse clicks at customizable intervals.
+    Designed to stay lightweight and clutter-free, it’s perfect for gaming, testing,
+    or automating repetitive tasks without the bloat of heavy automation suites.
   </p>
 </section>
 
 <section id="features">
   <h2>Features</h2>
   <ul>
-    <li>Custom key combo support with Ctrl, Alt, Shift modifiers</li>
-    <li>Adjustable press intervals, including custom timing</li>
-    <li>Start/stop toggle key for quick control</li>
-    <li>Easy-to-use GUI with dropdowns and checkboxes</li>
-    <li>Lightweight and runs silently in the background</li>
+    <li>Two modes: <strong>Keyboard</strong> or <strong>Mouse</strong> automation</li>
+    <li>Custom key combos with <strong>Ctrl</strong>, <strong>Alt</strong>, and <strong>Shift</strong> modifiers</li>
+    <li>Adjustable press or click intervals with preset and custom options</li>
+    <li>Choose mouse button type: Left, Right, or Middle</li>
+    <li>Global start/stop toggle key (default: F8)</li>
+    <li>LED-style status indicator showing active or idle state</li>
+    <li>Settings are saved automatically and restored on next launch</li>
+    <li>Clean, modern tabbed interface with themed visuals</li>
+    <li>Completely standalone — no installation required</li>
   </ul>
 </section>
 
 <section id="usage">
   <h2>How to Use</h2>
   <ol>
-    <li>Select the key(s) you want to auto-press.</li>
-    <li>Choose your preferred press interval or enter a custom value.</li>
-    <li>Set a toggle keybind to start and stop the auto key presser easily.</li>
-    <li>Press "Start" to begin auto pressing or use the toggle key during runtime.</li>
-    <li>Press "Stop" or use the toggle key again to halt the automation.</li>
+    <li>Open KAutoKey and select your preferred mode: <strong>Keyboard</strong> or <strong>Mouse</strong>.</li>
+    <li>For keyboard mode, choose the key(s) and optional modifiers you want to automate.</li>
+    <li>For mouse mode, select the click type (Left, Right, or Middle).</li>
+    <li>Set your interval using one of the presets or a custom time in seconds.</li>
+    <li>Press <strong>Start</strong> or use your toggle hotkey (<strong>F8</strong> by default) to begin.</li>
+    <li>Press <strong>Stop</strong> or the toggle key again to end automation.</li>
+    <li>Your settings are saved automatically for next time.</li>
   </ol>
-  <p>Feel free to experiment with settings to fit your needs!</p>
+  <p>It’s that easy — lightweight, efficient, and ready to go whenever you need it.</p>
 </section>
 
 <section id="download" class="download-section">
   <h2>Download</h2>
-  <p>You can download the latest release here:</p>
+  <p>You can download the latest version of KAutoKey here:</p>
   <a href="https://github.com/Klaxxan/-KAutoKey/releases/latest" target="_blank" class="button">Download Latest Release</a>
-  <p><small>(Note: KAutoKey is proprietary software and not open source.)</small></p>
+  <p class="note">(KAutoKey is proprietary software. All rights reserved.)</p>
 </section>
 
 <section id="contact">
   <h2>Contact</h2>
-  <p>If you have any questions or feedback, feel free to reach out:</p>
+  <p>If you have questions, suggestions, or feedback, feel free to reach out:</p>
   <ul>
     <li>Email: <a href="mailto:thatklaxxan@gmail.com">thatklaxxan@gmail.com</a></li>
     <li>GitHub: <a href="https://github.com/Klaxxan" target="_blank">github.com/Klaxxan</a></li>
@@ -135,4 +162,3 @@
 
 </body>
 </html>
-
