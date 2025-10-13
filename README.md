@@ -29,6 +29,10 @@ Version 2.0 Update
 - Cleaned duplicate code and improved thread safety
 - Added safe shutdown and cleanup when closing the application
 
+Version 2.1 Update
+- Added Random Interval Automation
+- Minor UI changes
+
 - settings.json is automatically created on first run
 
 © 2025 Klaxxan. All rights reserved.
